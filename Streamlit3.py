@@ -40,7 +40,7 @@ if st.session_state["authentication_status"]:
 # On indique au programme quoi faire en fonction du choix
     if selection == "Accueil":
         accueil_acceuil()
-        st.image(r"dofus.png")
+        st.image(r"dofus.jpg")
     elif selection == "Album photos":
         acceuil_photos()
         col1, col2, col3 = st.columns(3)
